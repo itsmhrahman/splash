@@ -1,0 +1,37 @@
+// ***********************************
+// LISTS
+// ***********************************
+.countries{
+	ul{
+		display: table;
+		align-items:center;
+		justify-content:center;
+		flex-direction:row;
+		text-align: center;
+
+		li{
+			
+			width: 24%;
+			height: 150px;
+			background: $secondary_color;
+			margin-bottom: 5px;
+			display: inline-block;
+
+			p{
+				color: #fff;
+			}
+		}
+	}
+}
+
+
+.flag{
+	width: 100%;
+	height: 50px;
+	background: $primary_color;
+}
+
+
+
+
+

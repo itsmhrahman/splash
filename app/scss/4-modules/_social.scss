@@ -1,0 +1,9 @@
+.social{
+	li{
+		display: inline-block;
+		@include border-radius(50%);
+		@include size(50px);
+		background: $secondary_color;
+		text-align: center;
+	}
+}
